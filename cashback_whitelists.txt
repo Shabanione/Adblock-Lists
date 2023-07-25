@@ -31,6 +31,7 @@
 @@||*.tradedoubler.com^$important
 !
 ! Questionable Tracking Providers, really required to track affiliates provision ?
+! Or do they feed search engines and other advertisers with informations ?
 !
 @@||region1.analytics.google.com^$important,ping
 @@||region1.google-analytics.com^$important,ping
@@ -44,12 +45,12 @@
 ! @@||*.adnxs.com^$important
 ! @@||*.crazyegg.com^$important
 !
-! supported shop domains and hosts
+! supported shop domains and hosts - probably not to be excluded ?
 !
-@@||*.nettoshop.ch^$important
-@@||*.mediamarkt.ch^$important
-@@||*.microspot.ch^$important
-@@||*.ebookers.ch^$important
-@@||*.doitgarden.ch^$important
-@@||*.jumbo.ch^$important
-@@||*.mobilezone.ch^$important
+! @@||*.nettoshop.ch^$important
+! @@||*.mediamarkt.ch^$important
+! @@||*.microspot.ch^$important
+! @@||*.ebookers.ch^$important
+! @@||*.doitgarden.ch^$important
+! @@||*.jumbo.ch^$important
+! @@||*.mobilezone.ch^$important
