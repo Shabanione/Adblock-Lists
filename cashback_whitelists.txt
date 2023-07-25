@@ -1,0 +1,35 @@
+! Whitelist to keep cashback tracking
+! working to still make cashback
+! Last Update: 2023-07-19
+!
+! ABP Filter Regex explained:
+! https://help.adblockplus.org/hc/en-us/articles/360062733293
+!
+! Cashback Providers
+!
+@@||*.rabattcorner.ch
+@@||*.shopmate.cash
+@@||*.shopmate.eu
+@@||*.myworld.com
+!
+! Affiliate Providers required to track affiliates provision
+!
+@@||*.awin1.com^
+@@||*.doubleclick.com^
+@@||*.doubleclick.net^
+@@||*.bluekai.com^
+@@||*.tradedoubler.com^
+@@||*.typekit.net^
+@@||*.googletagmanager.com^
+@@||*.onesignal.com^
+@@||dtproo8f961ps.cloudfront.net^
+!
+! supported shop domains and hosts
+!
+@@||*.nettoshop.ch^
+@@||*.mediamarkt.ch^
+@@||*.microspot.ch^
+@@||*.ebookers.ch^
+@@||*.doitgarden.ch^
+@@||*.jumbo.ch^
+@@||*.mobilezone.ch^
