@@ -15,6 +15,7 @@
 ! Affiliate Providers required to track affiliates provision
 !
 @@||region1.analytics.google.com^$important,ping
+@@||track.adtraction.com^$important
 @@||*.awin1.com^$important
 @@||*.doubleclick.com^$important
 @@||*.doubleclick.net^$important
