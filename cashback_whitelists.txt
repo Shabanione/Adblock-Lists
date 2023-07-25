@@ -5,34 +5,38 @@
 ! ABP Filter Regex explained:
 ! https://help.adblockplus.org/hc/en-us/articles/360062733293
 !
-! Cashback Providers
+! Cashback Providers plus required 3rd party sites as CDN's
 !
 @@||*.rabattcorner.ch^$important
+@@||dtproo8f961ps.cloudfront.net^$important
+!
 @@||*.shopmate.cash^$important
 @@||*.shopmate.eu^$important
+!
 @@||*.myworld.com^$important
 !
-! Affiliate Providers required to track affiliates provision
+! Affiliate Tracking Providers required to track affiliates provision
 !
-@@||region1.analytics.google.com^$important,ping
-@@||region1.google-analytics.com^$important,ping
-@@||track.adtraction.com^$important
-@@||track.adform.net^$important
+@@||*.adtraction.com^$important
+@@||*.adform.net^$important
 @@||*.awin1.com^$important
 @@||*.doubleclick.com^$important
 @@||*.doubleclick.net^$important
-@@||*.bluekai.com^$important
 @@||*.tradedoubler.com^$important
-@@||*.typekit.net^$important
-@@||*.googletagmanager.com^$important
-@@||*.onesignal.com^$important
-@@||dtproo8f961ps.cloudfront.net^$important
-@@||bat.bing.com^$important
-@@||snap.licdn.com^$important
-@@||script.crazyegg.com^$important
-@@||acdn.adnxs.com^$important
-@@||tracking.crazyegg.com^$important
-@@||assets-tracking.crazyegg.com^$important
+!
+! Questionable Tracking Providers, really required to track affiliates provision ?
+!
+@@||region1.analytics.google.com^$important,ping
+@@||region1.google-analytics.com^$important,ping
+! @@||*.bluekai.com^$important
+! @@||*.typekit.net^$important
+! @@||*.googletagmanager.com^$important
+! @@||*.onesignal.com^$important
+! @@||bat.bing.com^$important
+! @@||snap.licdn.com^$important
+! @@||script.crazyegg.com^$important
+! @@||*.adnxs.com^$important
+! @@||*.crazyegg.com^$important
 !
 ! supported shop domains and hosts
 !
