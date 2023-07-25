@@ -23,27 +23,27 @@
 !
 ! Affiliate Tracking Providers required to track affiliates provision
 !
-@@||*.adtraction.com^$important
-@@||*.adform.net^$important
-@@||*.awin1.com^$important
-@@||*.doubleclick.com^$important
-@@||*.doubleclick.net^$important
-@@||*.tradedoubler.com^$important
+@@||*.adtraction.com^$important,third-party
+@@||*.adform.net^$important,third-party
+@@||*.awin1.com^$important,third-party
+@@||*.doubleclick.com^$important,third-party
+@@||*.doubleclick.net^$important,third-party
+@@||*.tradedoubler.com^$important,third-party
 !
 ! Questionable Tracking Providers, really required to track affiliates provision ?
 ! Or do they feed search engines and other advertisers with informations ?
 !
-@@||region1.analytics.google.com^$important,ping
-@@||region1.google-analytics.com^$important,ping
-@@||*.googletagmanager.com^$important
-! @@||*.bluekai.com^$important
-! @@||*.typekit.net^$important
-! @@||*.onesignal.com^$important
-! @@||bat.bing.com^$important
-! @@||snap.licdn.com^$important
-! @@||script.crazyegg.com^$important
-! @@||*.adnxs.com^$important
-! @@||*.crazyegg.com^$important
+@@||region1.analytics.google.com^$important,third-party,ping
+@@||region1.google-analytics.com^$important,third-party,ping
+@@||*.googletagmanager.com^$important,third-party
+! @@||*.bluekai.com^$important,third-party
+! @@||*.typekit.net^$important,third-party
+! @@||*.onesignal.com^$important,third-party
+! @@||bat.bing.com^$important,third-party
+! @@||snap.licdn.com^$important,third-party
+! @@||script.crazyegg.com^$important,third-party
+! @@||*.adnxs.com^$important,third-party
+! @@||*.crazyegg.com^$important,third-party
 !
 ! supported shop domains and hosts - probably not to be excluded ?
 !
