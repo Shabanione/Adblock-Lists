@@ -35,9 +35,9 @@
 !
 @@||region1.analytics.google.com^$important,ping
 @@||region1.google-analytics.com^$important,ping
+@@||*.googletagmanager.com^$important
 ! @@||*.bluekai.com^$important
 ! @@||*.typekit.net^$important
-! @@||*.googletagmanager.com^$important
 ! @@||*.onesignal.com^$important
 ! @@||bat.bing.com^$important
 ! @@||snap.licdn.com^$important
