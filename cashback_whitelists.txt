@@ -17,6 +17,7 @@
 !
 @@||*.rabattcorner.ch^$important
 @@||dtproo8f961ps.cloudfront.net^$important
+@@||rum.browser-intake-datadoghq.eu^$important
 ! @@||*.shopmate.cash^$important
 ! @@||*.shopmate.eu^$important
 ! @@||*.myworld.com^$important
@@ -35,7 +36,7 @@
 !
 @@||region1.analytics.google.com^$important,third-party,ping
 @@||region1.google-analytics.com^$important,third-party,ping
-@@||*.onesignal.com^$important,third-party
+! @@||*.onesignal.com^$important,third-party
 @@||*.googletagmanager.com^$important,third-party
 ! @@||*.bluekai.com^$important,third-party
 ! @@||*.typekit.net^$important,third-party
