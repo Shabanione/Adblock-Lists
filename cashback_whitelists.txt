@@ -1,6 +1,6 @@
 ! Whitelist to keep cashback tracking
 ! working to still make cashback
-! Last Update: 2023-07-19
+! Last Update: 2023-07-25
 !
 ! ABP Filter Regex explained:
 ! https://help.adblockplus.org/hc/en-us/articles/360062733293
@@ -14,7 +14,7 @@
 !
 ! Affiliate Providers required to track affiliates provision
 !
-@@||region1.analytics.google.com^$important
+@@||region1.analytics.google.com^$important,ping
 @@||*.awin1.com^$important
 @@||*.doubleclick.com^$important
 @@||*.doubleclick.net^$important
