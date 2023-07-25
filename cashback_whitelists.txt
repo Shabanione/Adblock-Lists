@@ -1,11 +1,11 @@
-! Disclaimer: This list is offered without any guarantee at all, us at own risk !
+! Disclaimer: This list is offered without any guarantee at all, use at own risk !
 !
 ! Whitelist to keep cashback tracking hopefully working
 ! but still allowing adblocking otherwise
 !
-! At the moment I'm optimizing the list for rabattcorner.ch, however
-! the tracking affiliate providers as awin, doubleclick, tradedoubler etc. most
-! likely also might work with other cashback sites
+! At the moment I'm optimizing the list for rabattcorner.ch site an Adguard Adblocker.
+! However - the tracking affiliate providers as awin, doubleclick, tradedoubler etc.
+! most likely also might work with other cashback sites, as they might use them too
 !
 ! ABP Filter Regex explained:
 ! https://help.adblockplus.org/hc/en-us/articles/360062733293
