@@ -37,13 +37,13 @@
 @@||region1.google-analytics.com^$important,third-party,ping
 ! @@||*.onesignal.com^$important,third-party
 @@||*.googletagmanager.com^$important,third-party
-! @@||*.bluekai.com^$important,third-party
+@@||*.bluekai.com^$important,third-party
 @@||*.typekit.net^$important,third-party
 ! @@||bat.bing.com^$important,third-party
 ! @@||snap.licdn.com^$important,third-party
 ! @@||script.crazyegg.com^$important,third-party
 ! @@||*.adnxs.com^$important,third-party
-! @@||*.crazyegg.com^$important,third-party
+@@||*.crazyegg.com^$important,third-party
 ! @@||rum.browser-intake-datadoghq.eu^$important
 !
 ! Shop domains and hosts - probably they don't need to be excluded ?
