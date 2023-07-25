@@ -35,23 +35,26 @@
 !
 @@||region1.analytics.google.com^$important,third-party,ping
 @@||region1.google-analytics.com^$important,third-party,ping
-! @@||*.onesignal.com^$important,third-party
 @@||*.googletagmanager.com^$important,third-party
-@@||*.bluekai.com^$important,third-party
-@@||*.typekit.net^$important,third-party
+! @@||*.bluekai.com^$important,third-party
+! @@||*.typekit.net^$important,third-party
+! @@||*.onesignal.com^$important,third-party
 ! @@||bat.bing.com^$important,third-party
 ! @@||snap.licdn.com^$important,third-party
 ! @@||script.crazyegg.com^$important,third-party
 ! @@||*.adnxs.com^$important,third-party
-@@||*.crazyegg.com^$important,third-party
+! @@||*.crazyegg.com^$important,third-party
 ! @@||rum.browser-intake-datadoghq.eu^$important
 !
-! Shop domains and hosts - probably they don't need to be excluded ?
+! Shop domains and hosts - most likely to be excluded too ?
 !
-! @@||*.nettoshop.ch^$important
-! @@||*.mediamarkt.ch^$important
-! @@||*.microspot.ch^$important
-! @@||*.ebookers.ch^$important
-! @@||*.doitgarden.ch^$important
-! @@||*.jumbo.ch^$important
-! @@||*.mobilezone.ch^$important
+@@||*.nettoshop.ch^$important
+@@||*.mediamarkt.ch^$important
+@@||*.microspot.ch^$important
+@@||*.ebookers.ch^$important
+@@||*.doitgarden.ch^$important
+@@||*.jumbo.ch^$important
+@@||*.mobilezone.ch^$important
+@@||*.booking.com^$important
+@@||*.bravofly.ch^$important
+
