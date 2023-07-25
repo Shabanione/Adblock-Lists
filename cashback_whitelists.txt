@@ -1,19 +1,25 @@
-! Whitelist to keep cashback tracking
-! working to still make cashback
-! Last Update: 2023-07-25
+! Disclaimer: This list is offered without any guarantee at all, us at own risk !
+!
+! Whitelist to keep cashback tracking hopefully working
+! but still allowing adblocking otherwise
+!
+! At the moment I'm optimizing the list for rabattcorner.ch, however
+! the tracking affiliate providers as awin, doubleclick, tradedoubler etc. most
+! likely also might work with other cashback sites
 !
 ! ABP Filter Regex explained:
 ! https://help.adblockplus.org/hc/en-us/articles/360062733293
+!
+! Last Update: 2023-07-25
+! -------------------------------------------------------------------------------
 !
 ! Cashback Providers plus required 3rd party sites as CDN's
 !
 @@||*.rabattcorner.ch^$important
 @@||dtproo8f961ps.cloudfront.net^$important
-!
-@@||*.shopmate.cash^$important
-@@||*.shopmate.eu^$important
-!
-@@||*.myworld.com^$important
+! @@||*.shopmate.cash^$important
+! @@||*.shopmate.eu^$important
+! @@||*.myworld.com^$important
 !
 ! Affiliate Tracking Providers required to track affiliates provision
 !
