@@ -30,6 +30,7 @@
 @@||snap.licdn.com^$third-party
 @@||script.crazyegg.com^$third-party
 @@||acdn.adnxs.com^$third-party
+@@||tracking.crazyegg.com^$third-party
 !
 ! supported shop domains and hosts
 !
