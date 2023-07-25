@@ -35,10 +35,10 @@
 !
 @@||region1.analytics.google.com^$important,third-party,ping
 @@||region1.google-analytics.com^$important,third-party,ping
+@@||*.onesignal.com^$important,third-party
 @@||*.googletagmanager.com^$important,third-party
 ! @@||*.bluekai.com^$important,third-party
 ! @@||*.typekit.net^$important,third-party
-! @@||*.onesignal.com^$important,third-party
 ! @@||bat.bing.com^$important,third-party
 ! @@||snap.licdn.com^$important,third-party
 ! @@||script.crazyegg.com^$important,third-party
