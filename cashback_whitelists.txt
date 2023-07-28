@@ -10,62 +10,66 @@
 ! ABP Filter Regex explained:
 ! https://help.adblockplus.org/hc/en-us/articles/360062733293
 !
-! Last Update: 2023-07-25
+! Last Update: 2023-07-28
 ! -------------------------------------------------------------------------------
 !
 ! Cashback Providers plus required 3rd party sites as CDN's
 !
-@@||*.rabattcorner.ch^$important
-@@||dtproo8f961ps.cloudfront.net^$important
-! @@||*.shopmate.cash^$important
-! @@||*.shopmate.eu^$important
-! @@||*.myworld.com^$important
+@@||*.rabattcorner.ch^$document
+@@||dtproo8f961ps.cloudfront.net^$document
+! @@||*.shopmate.cash^$document
+! @@||*.shopmate.eu^$document
+! @@||*.myworld.com^$document
 
 !
 ! Affiliate Tracking Providers required direkt access ("via") to track affiliates provision
 !
-@@||*.awin.com^$important,document
-@@||*.awin1.com^$important,document
-@@||*.doubleclick.com^$important,document
-@@||*.doubleclick.net^$important,document
-@@||*.tradedoubler.com^$important,document
+@@||*.awin.com^$document
+@@||*.awin1.com^$document
+@@||*.doubleclick.com^$document
+@@||*.doubleclick.net^$document
+@@||*.tradedoubler.com^$document
+@@||*.jdoqocy.com^$document
+@@||*.dotomi.com^$document
+@@||*.emjcd.com^$document
 !
 ! Affiliate Tracking Providers 3rd party requersts required to track affiliates provision
 !
 @@||*.adtraction.com^$third-party,script,xmlhttprequest,ping
 @@||*.adform.net^$third-party,script,xmlhttprequest,ping
-@@||*.awin.com^$third-party,script,xmlhttprequest,ping
-@@||*.awin1.com^$third-party,script,xmlhttprequest,ping
-@@||*.doubleclick.com^$third-party,script,xmlhttprequest,ping
-@@||*.doubleclick.net^$third-party,script,xmlhttprequest,ping
-@@||*.tradedoubler.com^$third-party,script,xmlhttprequest,ping
+! @@||*.awin.com^$third-party,script,xmlhttprequest,ping
+! @@||*.awin1.com^$third-party,script,xmlhttprequest,ping
+! @@||*.doubleclick.com^$third-party,script,xmlhttprequest,ping
+! @@||*.doubleclick.net^$third-party,script,xmlhttprequest,ping
+! @@||*.tradedoubler.com^$third-party,script,xmlhttprequest,ping
 !
 ! Questionable Tracking Providers, really required to track affiliates provision ?
 ! Or do they feed search engines and other advertisers with informations ?
 !
-! @@||region1.analytics.google.com^$important,third-party,ping
-! @@||region1.google-analytics.com^$important,third-party,ping
-! @@||*.googletagmanager.com^$important,third-party
-! @@||*.bluekai.com^$important,third-party
-! @@||*.typekit.net^$important,third-party
-! @@||*.onesignal.com^$important,third-party
-! @@||bat.bing.com^$important,third-party
-! @@||snap.licdn.com^$important,third-party
-! @@||script.crazyegg.com^$important,third-party
-! @@||*.adnxs.com^$important,third-party
-! @@||*.crazyegg.com^$important,third-party
-! @@||rum.browser-intake-datadoghq.eu^$important
+! @@||region1.analytics.google.com^$document,third-party,ping
+! @@||region1.google-analytics.com^$document,third-party,ping
+! @@||*.googletagmanager.com^$document,third-party
+! @@||*.bluekai.com^$document,third-party
+! @@||*.typekit.net^$document,third-party
+! @@||*.onesignal.com^$document,third-party
+! @@||bat.bing.com^$document,third-party
+! @@||snap.licdn.com^$document,third-party
+! @@||script.crazyegg.com^$document,third-party
+! @@||*.adnxs.com^$document,third-party
+! @@||*.crazyegg.com^$document,third-party
+! @@||rum.browser-intake-datadoghq.eu^$document
 !
 ! Shop domains and hosts - most likely to be excluded too ?
 !
-@@||*.nettoshop.ch^$important,document
-@@||*.mediamarkt.ch^$important,document
-@@||*.microspot.ch^$important,document
-@@||*.ebookers.ch^$important,document
-@@||*.doitgarden.ch^$important,document
-@@||*.jumbo.ch^$important,document
-@@||*.mobilezone.ch^$important,document
-@@||*.booking.com^$important,document
-@@||*.bravofly.ch^$important,document
-@@||*.eat.ch^$important,document
-@@||*.just-eat.ch^$important,document
+@@||*.nettoshop.ch^$document
+@@||*.mediamarkt.ch^$document
+@@||*.microspot.ch^$document
+@@||*.ebookers.ch^$document
+@@||*.doitgarden.ch^$document
+@@||*.jumbo.ch^$document
+@@||*.mobilezone.ch^$document
+@@||*.booking.com^$document
+@@||*.bravofly.ch^$document
+@@||*.eat.ch^$document
+@@||*.just-eat.ch^$document
+
