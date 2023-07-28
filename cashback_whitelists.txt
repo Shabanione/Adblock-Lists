@@ -20,43 +20,52 @@
 ! @@||*.shopmate.cash^$important
 ! @@||*.shopmate.eu^$important
 ! @@||*.myworld.com^$important
+
 !
-! Affiliate Tracking Providers required to track affiliates provision
+! Affiliate Tracking Providers required direkt access ("via") to track affiliates provision
 !
-@@||*.adtraction.com^$important,third-party
-@@||*.adform.net^$important,third-party
-@@||*.awin1.com^$important,third-party
-@@||*.doubleclick.com^$important,third-party
-@@||*.doubleclick.net^$important,third-party
-@@||*.tradedoubler.com^$important,third-party
+@@||*.awin.com^$important,document
+@@||*.awin1.com^$important,document
+@@||*.doubleclick.com^$important,document
+@@||*.doubleclick.net^$important,document
+@@||*.tradedoubler.com^$important,document
+!
+! Affiliate Tracking Providers 3rd party requersts required to track affiliates provision
+!
+@@||*.adtraction.com^$third-party,script,xmlhttprequest,ping
+@@||*.adform.net^$third-party,script,xmlhttprequest,ping
+@@||*.awin.com^$third-party,script,xmlhttprequest,ping
+@@||*.awin1.com^$third-party,script,xmlhttprequest,ping
+@@||*.doubleclick.com^$third-party,script,xmlhttprequest,ping
+@@||*.doubleclick.net^$third-party,script,xmlhttprequest,ping
+@@||*.tradedoubler.com^$third-party,script,xmlhttprequest,ping
 !
 ! Questionable Tracking Providers, really required to track affiliates provision ?
 ! Or do they feed search engines and other advertisers with informations ?
 !
-@@||region1.analytics.google.com^$important,third-party,ping
-@@||region1.google-analytics.com^$important,third-party,ping
-@@||*.googletagmanager.com^$important,third-party
-@@||*.bluekai.com^$important,third-party
+! @@||region1.analytics.google.com^$important,third-party,ping
+! @@||region1.google-analytics.com^$important,third-party,ping
+! @@||*.googletagmanager.com^$important,third-party
+! @@||*.bluekai.com^$important,third-party
 ! @@||*.typekit.net^$important,third-party
 ! @@||*.onesignal.com^$important,third-party
 ! @@||bat.bing.com^$important,third-party
 ! @@||snap.licdn.com^$important,third-party
-@@||script.crazyegg.com^$important,third-party
+! @@||script.crazyegg.com^$important,third-party
 ! @@||*.adnxs.com^$important,third-party
-@@||*.crazyegg.com^$important,third-party
+! @@||*.crazyegg.com^$important,third-party
 ! @@||rum.browser-intake-datadoghq.eu^$important
 !
 ! Shop domains and hosts - most likely to be excluded too ?
 !
-@@||*.nettoshop.ch^$important
-@@||*.mediamarkt.ch^$important
-@@||*.microspot.ch^$important
-@@||*.ebookers.ch^$important
-@@||*.doitgarden.ch^$important
-@@||*.jumbo.ch^$important
-@@||*.mobilezone.ch^$important
-@@||*.booking.com^$important
-@@||*.bravofly.ch^$important
-@@||*.eat.ch^$important
-@@||*.just-eat.ch^$important
-
+@@||*.nettoshop.ch^$important,document
+@@||*.mediamarkt.ch^$important,document
+@@||*.microspot.ch^$important,document
+@@||*.ebookers.ch^$important,document
+@@||*.doitgarden.ch^$important,document
+@@||*.jumbo.ch^$important,document
+@@||*.mobilezone.ch^$important,document
+@@||*.booking.com^$important,document
+@@||*.bravofly.ch^$important,document
+@@||*.eat.ch^$important,document
+@@||*.just-eat.ch^$important,document
