@@ -1,0 +1,45 @@
+! Disclaimer: This list is offered without any guarantee at all, use at own risk !
+!
+! Whitelist to keep cashback tracking hopefully working
+! but still allowing adblocking otherwise
+!
+!This list is "work in progress" - At the moment I'm optimizing the list for rabattcorner.ch site
+! and Adguard Adblocker. However - the tracking affiliate providers as awin, doubleclick, tradedoubler
+! etc. also might work with other cashback sites, as they might use same affiliate trackers too
+!
+! Last Update: 2023-12-26
+! -------------------------------------------------------------------------------
+!
+! Cashback Providers plus required 3rd party sites as CDN's
+!
+@@||rabattcorner.ch^
+@@||dtproo8f961ps.cloudfront.net^
+!
+! Affiliate Tracking Providers required direkt access ("via") to track affiliates provision
+!
+@@||awin.com^
+@@||awin1.com^
+@@||adform.net^document
+@@||doubleclick.com^
+@@||doubleclick.net^
+@@||tradedoubler.com^
+@@||jdoqocy.com^
+@@||dotomi.com^
+@@||emjcd.com^
+@@||onesignal.com^
+@@||intercom.io^
+@@||googletagmanager.com^
+!
+! Shop domains and hosts - most likely to be excluded too ?
+!
+@@||nettoshop.ch^
+@@||mediamarkt.ch^
+@@||microspot.ch^
+@@||ebookers.ch^
+@@||doitgarden.ch^
+@@||jumbo.ch^
+@@||mobilezone.ch^
+@@||booking.com^
+@@||bravofly.ch^
+@@||eat.ch^
+@@||just-eat.ch^
