@@ -10,7 +10,7 @@
 ! ABP Filter Regex explained:
 ! https://help.adblockplus.org/hc/en-us/articles/360062733293
 !
-! Last Update: 2023-07-28
+! Last Update: 2024-02-17
 ! -------------------------------------------------------------------------------
 !
 ! Cashback Providers plus required 3rd party sites as CDN's
@@ -72,4 +72,8 @@
 @@||*.bravofly.ch^$document
 @@||*.eat.ch^$document
 @@||*.just-eat.ch^$document
+@@||*.swiss.ch^$document
+@@||*.nordvpn.ch^$document
+@@||*.nordcheckout.ch^$document
+
 
