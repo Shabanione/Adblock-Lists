@@ -1,0 +1,53 @@
+! Disclaimer: This list is offered without any guarantee at all, use at own risk !
+!
+! Whitelist to keep cashback tracking hopefully working
+! but still allowing adblocking otherwise
+!
+!This list is "work in progress" - At the moment I'm optimizing the list for rabattcorner.ch site
+! and Adguard Adblocker. However - the tracking affiliate providers as awin, doubleclick, tradedoubler
+! etc. also might work with other cashback sites, as they might use same affiliate trackers too
+!
+! ABP Filter Regex explained:
+! https://help.adblockplus.org/hc/en-us/articles/360062733293
+!
+! I also used the topcashback filterlist as inspiration to enhance my owwn list:
+! https://www.topcashback.co.uk/misc/AdBlockWhiteList.aspx
+!
+! Last Update: 2024-12-03
+! -------------------------------------------------------------------------------
+!
+! Cashback Providers plus required 3rd party sites as CDN's
+!
+@@||*.rabattcorner.ch^
+!
+! Affiliate Tracking Providers required direkt access ("via") to track affiliates provision
+!
+@@||*.awin.com^
+@@||*.awin1.com^
+@@||*.doubleclick.com^
+@@||*.doubleclick.net^
+@@||*.tradedoubler.com^
+@@||*.jdoqocy.com^
+@@||*.dotomi.com^
+@@||*.emjcd.com^@@
+@@||*.adtraction.com^
+@@||*.doubleclick.com^
+@@||*.doubleclick.net^
+@@||*.adform.net^
+!
+! Shop domains and hosts - most likely to be excluded too ?
+!
+@@||*.nettoshop.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.mediamarkt.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.microspot.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.ebookers.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.doitgarden.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.jumbo.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.mobilezone.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.booking.com^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.bravofly.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.eat.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.just-eat.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.swiss.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.nordvpn.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.nordcheckout.ch^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
