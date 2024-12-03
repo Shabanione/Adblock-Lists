@@ -38,6 +38,7 @@
 @@||*.tealiumiq.com^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
 @@||tags.tiqcdn.com^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
 @@||*.theadex.com^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
+@@||*.googletagmanager.com^*$xmlhttprequest,subdocument,document,script,object,image,stylesheet
 !
 ! Shop domains and hosts - most likely to be excluded too ?
 !
