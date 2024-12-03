@@ -29,7 +29,7 @@
 @@||*.tradedoubler.com^
 @@||*.jdoqocy.com^
 @@||*.dotomi.com^
-@@||*.emjcd.com^@@
+@@||*.emjcd.com^
 @@||*.adtraction.com^
 @@||*.doubleclick.com^
 @@||*.doubleclick.net^
